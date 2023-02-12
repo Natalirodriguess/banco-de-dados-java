@@ -1,27 +1,30 @@
-import java.sql.*;
+import br.com.alura.jdbc.factory.ConnectionFactory;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class TestaListagem {
 
-    public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) throws SQLException {
 
-        ConnectionFactory connectionFactory = new ConnectionFactory();
-        Connection connection = connectionFactory.recuperarConexao();
+		ConnectionFactory connectionFactory = new ConnectionFactory();
+		Connection connection = connectionFactory.recuperarConexao();
 
-        PreparedStatement statement = connection.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
-        // boolean resultado = statement.execute("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
-        statement.execute();
-
-        ResultSet result = statement.getResultSet(); // pegando de fato os dados no banco
-
-        while(result.next()){
-            Integer id = result.getInt("ID");
-            System.out.println(id);
-            String nome = result.getString("NOME");
-            System.out.println(nome);
-            String descricao = result.getString("DESCRICAO");
-            System.out.println(descricao);
-        }
-
-        connection.close();
-    }
+		PreparedStatement stm = connection.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+		stm.execute();
+		ResultSet rst = stm.getResultSet();
+		while(rst.next()) {
+			Integer id = rst.getInt("ID");
+			String nome = rst.getString("NOME");
+			String descricao = rst.getString("DESCRICAO");
+			System.out.println(id);
+			System.out.println(nome);
+			System.out.println(descricao);
+		}
+		rst.close();
+		stm.close();
+		connection.close();
+	}
 }

@@ -9,7 +9,7 @@ public class Categoria {
         this.nome = nome;
     }
 
-    public String getNome() {
+    public String getNome() { ///oi
         return nome;
     }
 }

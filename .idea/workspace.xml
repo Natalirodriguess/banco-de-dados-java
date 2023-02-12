@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20598708-119b-4969-8859-4c7e6a127eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loja_virtual_repository.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaInsercaoComParametro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaInsercaoComParametroMaisDeUmProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaInsercaoEListagemProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaInserção.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaListagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaListagemDeCategorias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaPoolConexoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaRemoção.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/CategoriaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaInsercao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaInsercaoEListagemComProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestaRemocao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/modelo/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/modelo/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoComParametro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaInsercaoComParametro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoComParametroMaisDeUmProduto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoEListagemProduto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaInserção.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaListagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaListagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaListagemDeCategorias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaListagemDeCategorias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaPoolConexoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaRemoção.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Categoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/thoma/Downloads/mchange-commons-java-0.2.16.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/thoma/Desktop/PROGRAMAÇÃO/Cursos Alura/Curso JDBC/loja_virtual_repository/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="modelo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thoma\Desktop\PROGRAMAÇÃO\Cursos Alura\Curso JDBC\loja_virtual_repository\src" />
+      <recent name="C:\Users\thoma\Desktop\PROGRAMAÇÃO\Cursos Alura\Curso JDBC\loja_virtual_repository\src\modelo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory" />
       <recent name="" />
     </key>
   </component>
@@ -97,7 +99,7 @@
       <workItem from="1675714412365" duration="10470000" />
       <workItem from="1675790019081" duration="11914000" />
       <workItem from="1675822942072" duration="915000" />
-      <workItem from="1676131844728" duration="2950000" />
+      <workItem from="1676131844728" duration="4114000" />
     </task>
     <servers />
   </component>
