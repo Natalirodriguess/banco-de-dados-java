@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20598708-119b-4969-8859-4c7e6a127eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestaInsercao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaInsercaoEListagemComProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaRemocao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/modelo/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/modelo/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoComParametro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaInsercaoComParametro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoComParametroMaisDeUmProduto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaInsercaoEListagemProduto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaInserção.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaListagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaListagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaListagemDeCategorias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaListagemDeCategorias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaPoolConexoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaRemoção.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Categoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/thoma/Desktop/PROGRAMAÇÃO/Cursos Alura/Curso JDBC/loja_virtual_repository/src",
+    "last_opened_file_path": "C:/Users/thoma/Downloads/jdbc-aula-8-projeto-inicial",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -99,7 +82,7 @@
       <workItem from="1675714412365" duration="10470000" />
       <workItem from="1675790019081" duration="11914000" />
       <workItem from="1675822942072" duration="915000" />
-      <workItem from="1676131844728" duration="4114000" />
+      <workItem from="1676131844728" duration="5179000" />
     </task>
     <servers />
   </component>
